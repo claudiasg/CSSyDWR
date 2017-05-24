@@ -1,6 +1,7 @@
 body{
 	background:#02010a;
 	font-family:Dancing Script;
+	font-size:1em;
 	margin:0 auto;
 	display:flex;
 	flex-flow:column wrap;
@@ -10,10 +11,11 @@ header{
 	color:white;
 	border-radius:10px 10px 0px 0px;	
 	top:0px;
-	width:80%;
+	width:76%;
 	margin:0 auto;
 	animation-name:slideIn;
 	animation-duration:2s;
+	padding:2%;
 }
 h1{
 	text-shadow:1px 2px #02010a;
@@ -23,12 +25,11 @@ h1{
 nav a{		
 	color:white;
 	padding: 1em;
-	
+	font-size:1.2em;
 }
 nav{
 	float:right;
 	display:inline;
-	border:solid 1px red;
 	text-align:center;
 }
 ul{
@@ -40,6 +41,11 @@ li{
 	margin: 0px 5px;
 	padding: 15px 0px;
 }
+#inicio ul li:nth-child(1) a,
+#paisaje ul li:nth-child(2) a,
+#retrato ul li:nth-child(3) a{
+	text-decoration:none;
+}
 #contenido{
 	width:80%;
 	background-color:#82c3a6;
@@ -50,27 +56,25 @@ li{
 }
 #contenido img{
 	width:100%;
-	/* height:100; */
 	box-shadow:2px 2px #02010a;	
 }
 #contenido1{
-	/* display:flex; */
-	/* flex-flow:row wrap; */
 	background:#d5c75f;
 	width:80%;
 	margin:0 auto;	
 	border:1px;
+	display:flex;
+	flex-flow:row wrap;
 }
 #imagen1{
-	box-sizing: border-box;
-	float:left;
 	text-align:center;	
 	margin:2em 3em;
-	/* border:solid 2px red; */
+	width:35%;
+	height:300px;	
 }
 #imagen1 img{
 	width:100%;
-	height:auto;
+	height:100%;
 	box-shadow:2px 2px #02010a;
 }
 #imagen1 img:hover{
@@ -82,15 +86,14 @@ li{
 	padding:0;
 }
 #imagen2{
-	box-sizing: border-box;
-	float:right;
 	text-align:center;	
 	margin:2em 3em;
-	/* border:solid 2px red; */
+	width:35%;
+	height:300px;	
 }
 #imagen2 img{
 	width:100%;
-	height:auto;	
+	height:100%;
 	box-shadow:2px 2px #02010a;
 }
 #imagen2 img:hover{
@@ -110,6 +113,9 @@ footer{
 	clear:both;
 	margin:0 auto;	
 	border-radius:0px 0px 10px 10px;
+}
+.contacto a{
+	color:black;
 }
 .contacto{
 	width:20%;
@@ -146,22 +152,22 @@ footer{
 		width:80%;
 	}	
 	.contacto{
-		font-size:2em;
+		font-size:1em;
 		width:100%;
 		order:1;
 	}
 	.terminos{
-		font-size:2em;
+		font-size:1em;
 		width:100%;
 		order:2;
 	}
 	.redes{
-		font-size:2em;
+		font-size:1em;
 		width:100%;
 		order:3;
 	}
 	.derechos{
-		font-size:2em;
+		font-size:1em;
 		width:100%;
 		order:4;
 	}
